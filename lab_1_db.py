@@ -31,7 +31,7 @@ def in_place_update():
 
     conn.close()
 
-def low_level_locking():
+def row_level_locking():
     conn = psycopg2.connect(user=username, password=password, dbname=database, host=host, port=port)
     cursor = conn.cursor()
 
