@@ -1,6 +1,6 @@
 import threading
 import time
-from lab_1_db import lost_update,in_place_update,low_level_locking,optimistic_concurrency_control
+from lab_1_db import lost_update,in_place_update,row_level_locking,optimistic_concurrency_control
 
 start_time = time.time()
 
